@@ -1,4 +1,4 @@
-# Exercise Title: If-Else Statements in Python
+# If-Else Statements in Python
 ---
 # Instructional Requirements
 ## Key Technical Outcome
@@ -12,9 +12,9 @@
 
 First, create an if statement that checks the input for your favorite color. (Assume all lowercase characters).
 
-If your favorite color is input correctly, output a message to the screen indicating this to the user. 
+If your favorite color is entered correctly, output a message to the screen indicating this to the user. 
 
-Test multiple inputs to verify that your if statment is working correctly. (red, blue, green)
+Test multiple inputs to verify that your if statment is working correctly. (For example: red, blue, or green.)
 
 Use else to output a message letting the user know that they guessed incorrectly. 
 
@@ -38,7 +38,7 @@ Test multiple inputs to verify that the else is working correctly.
 
 ---
 # Test Requirements
-<em>The student needs to have correctly used an if and else in the code. The if statement should check for the correct input (the value of the variable color) and should trigger the appropriate output statement. Incorrect input (anything other than the value of the variable color) should trigger at least one output statement which is part of the else statement. </em>
+<em>The student needs to have correctly used an if and else in the code. The if statement should check for the correct input (a string value of the variable color) and should trigger the appropriate output statement. An incorrect input (anything other than the value of the variable color) should trigger at least one output statement. </em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
