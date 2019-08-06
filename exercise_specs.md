@@ -1,14 +1,25 @@
-# Exercise Title:
+# Exercise Title: If-Else Statements in Python
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>Use an if-else statement to control program flow.</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>In this exercise you will be controlling which statements in your code are executed using an if-else statement. You will be testing multiple inputs to verified that all statements are executing correctly. </em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>The starter_code.py stores input in the variable color and prints the output Goodbye. 
+
+First, create an if statement that checks the input for your favorite color. (Assume all lowercase characters).
+
+If your favorite color is input correctly, output a message to the screen indicating this to the user. 
+
+Test multiple inputs to verify that your if statment is working correctly. (red, blue, green)
+
+Use else to output a message letting the user know that they guessed incorrectly. 
+
+Test multiple inputs to verify that the else is working correctly. 
+</em>
 
 ## Any Unique Requirements or Notes?
 
@@ -27,7 +38,7 @@
 
 ---
 # Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+<em>The student needs to have correctly used an if and else in the code. The if statement should check for the correct input (the value of the variable color) and should trigger the appropriate output statement. Incorrect input (anything other than the value of the variable color) should trigger at least one output statement which is part of the else statement. </em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
